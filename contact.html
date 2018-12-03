@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Branko Bozovic">
+    <meta name="description" content="Practicing HTML, CSS, maybe JS">
+    <title>Contact us | Balita - Fashion Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <!-- Font Awesome Free Icons CDN  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Web Page CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main_css.css" />
+
+    <!-- Web Page JS -->
+    <script src="js/main_js.js"></script>
+</head>
+<body>
+    <!-- Page Header section -->
+    <header id="page_header" role="banner">
+        <div class="full_background">
+            <div class="container">
+                <ul class="social_search">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-snapchat"></i></a></li> 
+                    <li class="search">
+                        <form class="nav_form">
+                            <i class="fa fa-search"></i>
+                            <input type="text" name="search" id="search" placeholder="Type keyword to search...">
+                        </form>
+                    </li>
+                </ul>
+            </div><!-- container -->
+        </div><!-- full_background -->
+        
+        <!-- Main Title of page -->
+        <h1 class="logo">
+            <a href="index.html" title="Contactnus">Balita</a></h1>
+
+        <div class="nav_background">
+            <div class="container">
+
+                <!-- Main page Navigation -->
+                <nav id="page_nav" class="top_nav">
+
+                    <!-- Navbar button (hamburger button) -->
+                    <span class="navbar_toggle" id="js_navbar_toggle">
+                        <i class="fas fa-bars"></i>
+                    </span>
+
+                    <!-- Nav list -->
+                    <ul class="nav_list" id="js_menu"> 
+                        <li><a href="index.html" title="Home page">Home</a></li>
+                        <li><a href="#">Travel</a>
+                            <!-- <ul>
+                                <li><a href="#">Asia</a></li>
+                                <li><a href="#">Europe</a></li>
+                                <li><a href="#">Dubai</a></li>
+                                <li><a href="#">Africa</a></li>
+                                <li><a href="#">South America</a></li>
+                            </ul> -->
+                        </li><!-- travel -->
+                        <li><a href="#">Categories</a>
+                            <!-- <ul>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Travel</a></li>
+                                <li><a href="#">Business</a></li>
+                            </ul> -->
+                        </li> <!-- categories -->
+                        <li><a href="#">About</a></li>
+                        <li><a href="contact.html" title="Contact us" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div><!-- container -->
+        </div>
+    </header><!-- Page Header section -->
+        
+    <div class="container">
+
+        <!-- Just for float left  in max width -->
+        <div class="main_content">
+
+        <!-- Contact form -->
+            <section class="contact_form">
+                <h2>Contact</h2>
+                <form action="" class="main_form">
+                    <!-- <div class="flex-form">
+
+                    </div> -->
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div>
+                        <label for="message">Write message</label>
+                        <textarea name="message" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send Message" class="contact_button">
+                    </div>
+                </form>
+            </section><!-- Contact form -->
+        </div><!-- Just for float left main content -->
+
+        <!-- Page Aside section -->
+        <aside id="page_aside">
+
+            <!-- search element -->
+            <form>
+                <i class="fa fa-search"></i>
+                <input type="text" name="search" id="aside_search" placeholder="Type a keyword to search...">
+            </form>
+
+            <!-- My Bio -->
+            <article class="my_bio">
+                <img src="assets/bio.jpg" alt="Meagan Smith Profile picture" width="250" height="250">
+                <h4>Meagan Smith</h4>
+                <p class="bio_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
+                <p class="read"><a href="#">Read my bio</a></p>
+                <p class="my_social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </p>
+            </article><!-- my bio -->
+
+            <!-- Popular Posts -->
+            <section class="popular">
+                <h3>Popular posts</h3>
+                <section class="popular_post">
+                    <div class="popular_img">
+                        <img src="assets/hands.jpg" alt="Post 1 Cover Photo" width="250" height="250">
+                    </div>
+                    <div class="popular_content"> 
+                        <h4>There's a Cool New Way for Men to Wear Socks and Sandals</h4>
+                        <p>
+                            <span class="date">March 15, 2018</span>
+                            <span class="comments">
+                                <a href="#"><i class="fas fa-comments"></i> &nbsp;3</a>
+                            </span>
+                        </p>
+                    </div>
+                </section>
+
+                <section class="popular_post">
+                    <div class="popular_img">
+                        <img src="assets/rails.jpg" alt="Post 1 Cover Photo" width="250" height="250">
+                    </div>
+                    <div class="popular_content"> 
+                        <h4>There's a Cool New Way for Men to Wear Socks and Sandals</h4>
+                        <p>
+                            <span class="date">March 15, 2018</span>
+                            <span class="comments">
+                                <a href="#"><i class="fas fa-comments"></i> &nbsp;3</a>
+                            </span>
+                        </p>
+                    </div>
+                </section>
+
+                <section class="popular_post">
+                    <div class="popular_img">
+                        <img src="assets/wine.jpg" alt="Post 1 Cover Photo" width="250" height="250">
+                    </div>
+                    <div class="popular_content"> 
+                        <h4>There's a Cool New Way for Men to Wear Socks and Sandals</h4>
+                        <p>
+                            <span class="date">March 15, 2018</span>
+                            <span class="comments">
+                                <a href="#"><i class="fas fa-comments"></i> &nbsp;3</a>
+                            </span>
+                        </p>
+                    </div>
+                </section>
+
+            </section><!-- Popular Posts -->
+
+            <!-- Categories -->
+            <section class="categories">
+                <h3>Categories</h3>
+                <ul class="categories_list">
+                    <li>
+                        <a href="#">Courses</a> 
+                        <span class="catg_num">(12)</span>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                        <span class="catg_num">(22)</span>
+                    </li>
+                    <li>
+                        <a href="#">Design</a>
+                        <span class="catg_num">(37)</span>
+                    </li>
+                    <li>
+                        <a href="#">HTML</a>
+                        <span class="catg_num">(42)</span>
+                    </li>
+                    <li>
+                        <a href="#">Web Development</a>
+                        <span class="catg_num">(14)</span>
+                    </li>
+                </ul>
+            </section><!-- Categories -->
+
+            <!-- Tags -->
+            <section class="tags">
+                <h3>Tags</h3>
+                <ul class="tags_list">
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Freelancing</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Freelancing</a></li>
+                </ul>
+            </section><!-- tags -->
+
+        </aside><!-- Page Aside section -->
+    
+    </div><!-- END Container -->
+    
+    <!-- Page Footer section -->
+    <footer id="page_footer">
+        <div class="container">
+            <p class="para_title">Paragraph</p>
+            <!-- Footer Paragraph -->
+            <div class="footer_para">
+                <div class="flex_img">
+                    <img src="assets/photographer.jpg" alt="Photograph searching inspiration" class="para_img" width="250" height="250">
+                </div>
+                <div class="flex_p">
+                    <p class="para_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusantium optio unde perferendis eum illum voluptatibus dolore tempora, consequatur minus asperiores temporibus reprehenderit.</p>
+                </div>
+            </div>
+
+        <!-- Latest (same as Popular) post -->
+        <section class="popular">
+        <h3>Latest posts</h3>
+        <section class="popular_post">
+            <div class="popular_img">
+                <img src="assets/lady.jpg" alt="Post 1 Cover Photo" width="250" height="250">
+            </div>
+            <div class="popular_content"> 
+                <h4>There's a Cool New Way for Men to Wear Socks and Sandals</h4>
+                <p>
+                    <span class="date">March 15, 2018</span>
+                    <span class="comments">
+                        <a href="#"><i class="fas fa-comments"></i> &nbsp;3</a>
+                    </span>
+                </p>
+            </div>
+        </section>
+
+        <section class="popular_post">
+            <div class="popular_img">
+                <img src="assets/curly.jpg" alt="Post 1 Cover Photo" width="250" height="250">
+            </div>
+            <div class="popular_content"> 
+                <h4>There's a Cool New Way for Men to Wear Socks and Sandals</h4>
+                <p>
+                    <span class="date">March 15, 2018</span>
+                    <span class="comments">
+                        <a href="#"><i class="fas fa-comments"></i> &nbsp;3</a>
+                    </span>
+                </p>
+            </div>
+        </section>
+
+        <section class="popular_post">
+            <div class="popular_img">
+                <img src="assets/rails.jpg" alt="Post 1 Cover Photo" width="250" height="250">
+            </div>
+            <div class="popular_content"> 
+                <h4>There's a Cool New Way for Men to Wear Socks and Sandals</h4>
+                <p>
+                    <span class="date">March 15, 2018</span>
+                    <span class="comments">
+                        <a href="#"><i class="fas fa-comments"></i> &nbsp;3</a>
+                    </span>
+                </p>
+            </div>
+        </section>
+
+    </section><!--  Latest (same as Popular) Posts -->
+        
+            <!-- Quick Links -->
+            <div class="quick_links">
+                <h3>Quick links</h3>
+                <ul class="quick_links_list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Categories</a></li>                
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="social">
+                <h3>Social</h3>
+                <ul class="social_list">
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-vimeo-v"></i>Vimeo</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                    <li><a href="#"><i class="fab fa-snapchat"></i>Snapshot</a></li> 
+                </ul>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copy">
+                <p>Copyright ©2018 All rights reserved | This template is made with  by Colorlib</p>
+            </div>
+        </div><!-- container -->
+    </footer><!-- Page Footer section -->
+
+    <script>
+        // responsive nav button
+        let mainNav = document.getElementById('js_menu');
+        let navBarToggle = document.getElementById('js_navbar_toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
